@@ -6,7 +6,7 @@ from pathlib import Path
 
 
 
-def pdf_to_mp3(file_path='test.pdf', language='en'):
+def pdf_to_mp3(file_path='путь к pdf файлу', language='en'):
     if Path(file_path).is_file() and Path(file_path).suffix == '.pdf' or 'txt':
 
         print(f'[+] Original file: {Path(file_path).name}')
